@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body::-webkit-scrollbar{
+  @apply w-1 bg-transparent;
+}
+body::-webkit-scrollbar-thumb{
+  @apply bg-cyan-700/50 rounded-full;
+}
+body::-webkit-scrollbar-thumb:hover{
+  @apply bg-cyan-700;
+}
+
+.section{
+  @apply py-8 lg:py-24 lg:h-screen flex items-center;
+}
+.btn-primary{
+  @apply px-4 py-2 bg-gradient-to-r from-sky-500 to-indigo-500 rounded-full shadow-md shadow-gray-700/50 hover:animate-bounce;
+}
+.bg-site{
+  background-image: url(./assets/images/background_hero.jpg);
+}
