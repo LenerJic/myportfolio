@@ -10,7 +10,7 @@ export function Hero() {
   return (
     <section id="home" className="min-h-[85vh] lg:min-h-[78vh] flex items-center">
       <div className="container mx-auto">
-        <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
+        <div className="flex flex-col lg:px-4 xl:px-6 gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
           <div className="flex-1 text-center lg:text-left mx-2 lg:mx-0 xl:pr-40">
             <h1 className="text-5xl font-bold leading-[0.8] lg:text-8xl text-gradient">
               JHOSTIN LENER
@@ -20,7 +20,7 @@ export function Hero() {
               <TypeAnimation sequence={['Web', 2000, 'Frontend', 2000,]}
                 speed={50} className='text-emerald-500' wrapper='span' repeat={Infinity}/>
             </div>
-            <p className="text-justify">
+            <p className="text-justify xl:text-lg">
               Soy programador FullStack con mayor conocimiento en el lado de Frontend, trabajando generalmente 
               con el FrameWork Angular.
             </p>
@@ -37,7 +37,11 @@ export function Hero() {
               </div>
             </div>
           </div>
-          <div className="hidden lg:flex flex-1 max-w-xs lg:max-w-[482px]">
+          <div className="hidden relative lg:flex flex-1 max-w-xs lg:max-w-[482px]">
+            <div class="absolute inset-x-1/4 bottom-10 animate-pulse blur-lg flex-1 -space-x-14 z-[-1]">
+              <div class="mix-blend-lighten h-56 w-56 rounded-full bg-blue-500"></div>
+              <div class="mix-blend-lighten h-56 w-56 rounded-full bg-emerald-400"></div>
+            </div>
             <img src={my_profile} alt="I'm" className="md:w-11/12 h-full object-cover rounded-3xl"/>
           </div>
         </div>
