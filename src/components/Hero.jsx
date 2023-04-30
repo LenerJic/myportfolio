@@ -10,11 +10,9 @@ export function Hero() {
   return (
     <section id="home" className="min-h-[85vh] lg:min-h-[78vh] flex items-center">
       <div className="container mx-auto">
-        {/* <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center">
-        </div> */}
         <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
-          <div className="flex-1 text-center lg:text-left">
-            <h1 className="text-5xl font-bold leading-[0.8] lg:text-8xl bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-indigo-500">
+          <div className="flex-1 text-center lg:text-left mx-2 lg:mx-0 xl:pr-40">
+            <h1 className="text-5xl font-bold leading-[0.8] lg:text-8xl text-gradient">
               JHOSTIN LENER
             </h1>
             <div className="mb-6 text-3xl lg:text-5xl font-semibold uppercase">
@@ -22,9 +20,9 @@ export function Hero() {
               <TypeAnimation sequence={['Web', 2000, 'Frontend', 2000,]}
                 speed={50} className='text-emerald-500' wrapper='span' repeat={Infinity}/>
             </div>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis 
-              ea incidunt molestiae totam deserunt animi asperiores labore explicabo 
-              perspiciatis velit!
+            <p className="text-justify">
+              Soy programador FullStack con mayor conocimiento en el lado de Frontend, trabajando generalmente 
+              con el FrameWork Angular.
             </p>
             <div className="flex items-center justify-center lg:justify-start mt-8 gap-4">
               <a href="../assets/my_cv.pdf" download>
@@ -40,7 +38,7 @@ export function Hero() {
             </div>
           </div>
           <div className="hidden lg:flex flex-1 max-w-xs lg:max-w-[482px]">
-            <img src={my_profile} alt="I'm" className="md:w-11/12 h-full object-cover rounded-lg"/>
+            <img src={my_profile} alt="I'm" className="md:w-11/12 h-full object-cover rounded-3xl"/>
           </div>
         </div>
       </div>

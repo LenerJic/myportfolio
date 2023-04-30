@@ -6,9 +6,9 @@ export function Navbar() {
   const Menus = [
     { link:'home', icon: "home-outline" },
     { link:'about', icon: "person-outline" },
-    { link:'about', icon: "chatbubble-outline" },
-    { link:'contact', icon: "camera-outline" },
-    { link:'contact', icon: "settings-outline" },
+    { link:'skills', icon: "code-working-outline" },
+    { link:'projects', icon: "desktop-outline" },
+    { link:'contact', icon: "chatbubble-outline" },
   ]
   const [active, setActive] = useState(0);
   return (

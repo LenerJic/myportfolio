@@ -4,6 +4,8 @@ import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 import { Header } from "./components/Header";
 import { APing } from "./components/APing";
+import { Skills } from "./components/Skills";
+import { Projects } from "./components/Projects";
 
 export function App() {
   return (
@@ -13,6 +15,8 @@ export function App() {
       <Hero/>
       <Navbar/>
       <About/>
+      <Skills/>
+      <Projects/>
       <Contact/>
     </>
   );
