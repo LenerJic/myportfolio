@@ -22,8 +22,14 @@ body::-webkit-scrollbar-thumb:hover{
   @apply bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-indigo-500;
 }
 .btn-primary{
-  @apply px-4 py-2 bg-gradient-to-r from-sky-500 to-indigo-500 rounded-full shadow-md shadow-sky-400/50;
+  @apply px-4 py-2 bg-gradient-to-r from-sky-500 to-indigo-500 rounded-full shadow-md hover:shadow-lg shadow-sky-400/50 hover:from-blue-500 hover:to-violet-500 hover:shadow-blue-400/50;
 }
 .bg-about{
   background-image: url(./assets/images/about.jpg);
+}
+.work-title{
+  @apply absolute -bottom-full w-full group-hover:bottom-28 lg:group-hover:bottom-32 2xl:group-hover:bottom-40 transition-all duration-500 z-50;
+}
+.work-icons{
+  @apply absolute -bottom-full w-full px-2 group-hover:bottom-10 lg:group-hover:bottom-14 2xl:group-hover:bottom-20 transition-all duration-500 z-50;
 }

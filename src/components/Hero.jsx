@@ -26,11 +26,11 @@ export function Hero() {
             </p>
             <div className="flex items-center justify-center lg:justify-start mt-8 gap-4">
               <a href="../assets/my_cv.pdf" download>
-                <button className="btn-primary">Descargar CV</button>
+                <button className="btn-primary transition-all duration-500">Descargar CV</button>
               </a>
               <div className="text-gray-100 pt-2 flex gap-x-3 md:gap-x-5 text-2xl md:text-4xl items-center justify-between md:justify-start">
               {Contacts.map((contact, i) => (
-                <a key={i} href={contact.route} target="_blank" className="text-teal-100 hover:text-teal-300 transition-colors">
+                <a key={i} href={contact.route} target="_blank" className="text-white hover:text-teal-200 transition-colors">
                   <ion-icon name={contact.icon}></ion-icon>
                 </a>
               ))}
@@ -38,9 +38,9 @@ export function Hero() {
             </div>
           </div>
           <div className="hidden relative lg:flex flex-1 max-w-xs lg:max-w-[482px]">
-            <div class="absolute inset-x-1/4 bottom-10 animate-pulse blur-lg flex-1 -space-x-14 z-[-1]">
-              <div class="mix-blend-lighten h-56 w-56 rounded-full bg-blue-500"></div>
-              <div class="mix-blend-lighten h-56 w-56 rounded-full bg-emerald-400"></div>
+            <div className="absolute inset-x-1/4 bottom-10 animate-pulse blur-lg flex-1 -space-x-14 z-[-1]">
+              <div className="mix-blend-lighten h-56 w-56 rounded-full bg-blue-500"></div>
+              <div className="mix-blend-lighten h-56 w-56 rounded-full bg-emerald-400"></div>
             </div>
             <img src={my_profile} alt="I'm" className="md:w-11/12 h-full object-cover rounded-3xl"/>
           </div>

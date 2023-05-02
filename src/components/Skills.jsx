@@ -1,14 +1,14 @@
-import logo_html from '../assets/logos/html.png';
-import logo_css from '../assets/logos/css.png';
-import logo_js from '../assets/logos/js.png';
-import logo_tailwind from '../assets/logos/tailwind.png';
-import logo_angular from '../assets/logos/angular.png';
-import logo_asp from '../assets/logos/asp_net.png';
+import logo_html from '../assets/logos/html_Logo.svg';
+import logo_css from '../assets/logos/css_Logo.svg';
+import logo_js from '../assets/logos/js_Logo.svg';
+import logo_tailwind from "../assets/logos/tailwind_logo.svg";
+import logo_angular from '../assets/logos/angular_Logo.svg';
+import logo_asp from '../assets/logos/net_Logo.svg';
 
 export function Skills() {
   const Skills = [
     { logo: logo_html, name: "HTML", hover: "hover:shadow-orange-500/50 hover:border-orange-500" },
-    { logo: logo_css, name: "CSS", hover: "hover:shadow-sky-400/50 hover:border-sky-400" },
+    { logo: logo_css, name: "CSS", hover: "hover:shadow-blue-500/50 hover:border-blue-500" },
     { logo: logo_js, name: "JAVASCRIPT", hover: "hover:shadow-yellow-400/50 hover:border-yellow-300" },
     { logo: logo_tailwind, name: "TAILWIND", hover: "hover:shadow-cyan-600/50 hover:border-cyan-500" },
     { logo: logo_angular, name: "ANGULAR", hover: "hover:shadow-red-600/50 hover:border-red-600" },

@@ -8,7 +8,7 @@ export function Navbar() {
     { link:'about', icon: "person-outline" },
     { link:'skills', icon: "code-working-outline" },
     { link:'projects', icon: "desktop-outline" },
-    { link:'contact', icon: "chatbubble-outline" },
+    // { link:'contact', icon: "chatbubble-outline" },
   ]
   const [active, setActive] = useState(0);
   return (
