@@ -1,7 +1,7 @@
 import logo_html from '../assets/logos/html_Logo.svg';
 import logo_css from '../assets/logos/css_Logo.svg';
 import logo_js from '../assets/logos/js_Logo.svg';
-import logo_tailwind from "../assets/logos/tailwind_Logo.svg";
+import logo_tailwind from "../assets/logos/tailwind_logo.svg";
 import logo_angular from '../assets/logos/angular_Logo.svg';
 import logo_asp from '../assets/logos/net_Logo.svg';
 
