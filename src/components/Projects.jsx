@@ -1,6 +1,6 @@
 import my_portfolio from "../assets/images/projects/my_portfolio.png";
 import reactLogo from "../assets/logos/react.svg";
-import tailwindLogo from "../assets/logos/tailwind_logo.svg";
+import tailwindLogo from "../assets/logos/tailwind_css.svg";
 
 export function Projects() {
   return (
