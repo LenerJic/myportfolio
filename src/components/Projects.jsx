@@ -4,15 +4,14 @@ import tailwindLogo from "../assets/logos/tailwind_css.svg";
 
 export function Projects() {
   return (
-    <section id="projects" className="section">
+    <section id="projects" className="py-8 lg:py-24 h-screen flex items-center">
       <div className="container mx-auto px-4">
         <div className="flex flex-col gap-y-6 2xl:gap-y-9 text-gray-100 text-center">
           <h3 className="text-4xl font-semibold">
             Mis <span className="text-gradient">Proyectos</span>
           </h3>
           <p className="text-gray-400 text-xl 2xl:text-2xl">Mis Ultimos trabajos</p>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
-            <div></div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img className="group-hover:scale-125 transition-all duration-500" src={my_portfolio} loading="lazy"/>
