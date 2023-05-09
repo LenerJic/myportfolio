@@ -22,7 +22,7 @@ export function Skills() {
             Mis <span className="text-gradient">Habilidades</span>
           </h3>
           <p className="text-gray-400 text-xl 2xl:text-2xl">Mis Conocimientos</p>
-          <div className="grid grid-cols-2 lg:grid-cols-3 justify-items-center p-4 gap-7 lg:gap-10">
+          <div className="grid grid-cols-2 md:grid-cols-3 justify-items-center p-4 gap-7 lg:gap-10">
             {Skills.map((skill, i) => (
               <div key={i} className={`border-4 border-cyan-600 relative flex flex-col gap-y-3 items-center min-w-[5rem] lg:min-w-[10rem] max-w-[16rem] bg-gray-900 p-4 lg:p-10 rounded-xl hover:shadow-lg transition-all duration-300 ${skill.hover}`}>
                 <div className="w-28 lg:w-32 h-28 lg:h-32 flex items-center">

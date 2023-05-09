@@ -12,7 +12,7 @@ export function Hero() {
       <div className="container mx-auto">
         <div className="flex flex-col lg:px-4 xl:px-6 gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
           <div className="flex-1 text-center lg:text-left mx-2 lg:mx-0 xl:pr-40">
-            <h1 className="text-5xl font-bold leading-[0.8] lg:text-8xl text-gradient">
+            <h1 className="text-5xl font-bold leading-[0.8] xl:text-6xl 2xl:text-8xl text-gradient">
               JHOSTIN LENER
             </h1>
             <div className="mb-6 text-3xl lg:text-5xl font-semibold uppercase">
@@ -20,7 +20,7 @@ export function Hero() {
               <TypeAnimation sequence={['Web', 2000, 'Frontend', 2000,]}
                 speed={50} className='text-emerald-500' wrapper='span' repeat={Infinity}/>
             </div>
-            <p className="text-justify xl:text-lg">
+            <p className="text-justify md:text-3xl lg:text-xl xl:text-lg">
               Soy programador FullStack con mayor conocimiento en el lado de Frontend, trabajando generalmente 
               con el FrameWork Angular.
             </p>

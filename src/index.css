@@ -13,7 +13,7 @@ body::-webkit-scrollbar-thumb:hover{
 }
 
 .section{
-  @apply py-8 lg:py-24 lg:h-screen flex items-center;
+  @apply py-8 lg:py-24 h-screen flex items-center;
 }
 .active{
   @apply bg-gradient-to-b from-emerald-500 via-cyan-600 to-blue-500 text-white;
